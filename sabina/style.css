@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.container{
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap:20px;
+}
+.card{
+    padding:15px;
+    width: 200px;
+  border:1px solid black;
+  border-radius: 10%;
+}
+.card img{
+    width: 100%;
+    height:150px;
+   border-radius: 10%;
+}
+#filter-buttons{
+ margin: 20px;
+}
+button{
+    background-color:#c9c5c5;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 5px;;
+}
+.active{
+    background-color: #07ac0d;
+}
+button:hover{
+    background-color:#0f5212;
+}

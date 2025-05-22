@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Dynamic Filter by Category</h1>
+    <div id="filter-buttons">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="fruits">Fruits</button>
+    <button data-filter="vegetables">Vegetables</button>
+    <button data-filter="bakery">Bakery</button>
+    </div>
+    <div  class="container" id="item-container">
+        <div class="card" data-category="fruits">
+            <img src="./apple.jpg" alt="">
+           <h3>Apple</h3>
+           <p>Rs.120/kg</p>
+        </div>
+        <div class="card" data-category="fruits">
+            <img src="./banana.jpg" alt="">
+           <h3>Banana</h3>
+           <p>Rs.120/kg</p>
+        </div>
+         <div class="card" data-category="fruits">
+            <img src="./mango.jpg" alt="">
+           <h3>Mango</h3>
+           <p>Rs.120/kg</p>
+        </div>
+         <div class="card"  data-category="vegetables">
+            <img src="./carrot.jpg" alt="">
+           <h3>Carrot</h3>
+           <p>Rs.120/kg</p>
+        </div>
+         <div class="card" data-category="fruits">
+            <img src="./straw.jpg" alt="">
+           <h3>Strawberry</h3>
+           <p>Rs.120/kg</p>
+        </div>
+         <div class="card" data-category="bakery">
+            <img src="./apple.jpg" alt="">
+           <h3>Bread</3>
+           <p>Rs.120/kg</p>
+        </div>
+         <div class="card" data-category="bakery">
+            <img src="./apple.jpg" alt="">
+           <h3>Cake</h3>
+           <p>Rs.120/kg</p>
+        </div>
+         <div class="card" data-category="vegetables">
+            <img src="./apple.jpg" alt="">
+           <h3>Eggplant</h3>
+           <p>Rs.120/kg</p>
+        </div>
+    </div>
+     <script src="./script.js"></script> 
+</body>
+</html>
